@@ -67,7 +67,7 @@ export default function Zigzag() {
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-yellow-600 mb-2">Une gestion des commandes simplifiée</div>
                   <h3 className="h3 mb-3">Moins d'erreurs, plus de simplicité</h3>
-                  <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p className="text-xl text-gray-400 mb-4">Soyez toujours synchro en cuisine et avec le client grâce au système de commande centralisé!</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
