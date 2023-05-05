@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Accueil - MySnack.re',
+  description: 'Notre système connecté centré sur le client permet aux Snack Bars réunionnais de réaliser des économies de temps et une fidélisation du client',
 }
 
 import Hero from '@/components/hero'

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import FeatImage01 from '@/public/images/features-03-image-01.png'
 import FeatImage02 from '@/public/images/features-03-image-02.png'
-import FeatImage03 from '@/public/images/features-03-image-03.png'
+import FeatImage03 from '@/public/images/stats.jpg'
 
 export default function Zigzag() {
   return (
@@ -12,7 +12,7 @@ export default function Zigzag() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">S'adapte en fonction de chaque bar</div>
+            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-yellow-600 bg-yellow-200 rounded-full mb-4">S'adapte en fonction de chaque bar</div>
             <h1 className="h2 mb-4">Personnalisez  en toute simplicité</h1>
             <p className="text-xl text-gray-400">Dévoilez votre identité grâce à la personnalisation du menu et gardez l'aspect professionnel que vous aimez</p>
           </div>
@@ -29,7 +29,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Un menu professionnel</div>
+                  <div className="font-architects-daughter text-xl text-yellow-600 mb-2">Un menu professionnel</div>
                   <h3 className="h3 mb-3">Un menu à votre image</h3>
                   <p className="text-xl text-gray-400 mb-4">Photos, bannières, prix, mots... Vous avez la main libre sur tout le menu</p>
                   <ul className="text-lg text-gray-400 -mb-2">
@@ -65,7 +65,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Une gestion des commandes simplifiée</div>
+                  <div className="font-architects-daughter text-xl text-yellow-600 mb-2">Une gestion des commandes simplifiée</div>
                   <h3 className="h3 mb-3">Moins d'erreurs, plus de simplicité</h3>
                   <p className="text-xl text-gray-400 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
@@ -101,7 +101,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">Conçue pour la croissance des Snack Bars</div>
+                  <div className="font-architects-daughter text-xl text-yellow-600 mb-2">Conçue pour la croissance des Snack Bars</div>
                   <h3 className="h3 mb-3">Statistiques et recommandations</h3>
                   <p className="text-xl text-gray-400 mb-4">Découvrez comment le client se comporte afin de comprendre ses intentions d'achat</p>
                   <ul className="text-lg text-gray-400 -mb-2">

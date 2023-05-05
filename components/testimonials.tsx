@@ -56,7 +56,7 @@ export default function Testimonials() {
             {/* 3rd testimonial */}
             <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
               <blockquote className="text-lg text-gray-400 grow">
-                <h2 className="h2 mb-4">Pack Gold</h2>
+                <h2 className="h2 mb-4t text-yellow-200">Pack Gold</h2>
                 <ul className='list-disc ml-7'>
                   <li>Statistiques avancées et Recommandations personnalisées</li>
                   <li>Sauvegardes de plusieurs menu</li>
@@ -69,9 +69,7 @@ export default function Testimonials() {
                 <cite className="text-gray-200 not-italic">9,14€/jour</cite> <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">soit 208,33€/mois</a>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </section>

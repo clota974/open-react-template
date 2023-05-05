@@ -1,0 +1,6 @@
+services: 
+  mysnack-site:
+    image: mysnack-site
+    build: .
+    ports:
+      - "1210:3000"
