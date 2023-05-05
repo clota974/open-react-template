@@ -32,6 +32,14 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}>
+        <Script strategy='afterInteractive' src="https://www.googletagmanager.com/gtag/js?id=G-3Q4EKDRDEC" />
+        <Script>
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-3Q4EKDRDEC');`}
+        </Script>
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}
@@ -41,4 +49,3 @@ export default function RootLayout({
     </html>
   )
 }
- 
