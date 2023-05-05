@@ -13,7 +13,7 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Tarifs transparents</h2>
-            <p className="text-xl text-gray-400">Vous n'avez olus besoin de demander un devis</p>
+            <p className="text-xl text-gray-400">3 forfaits, adaptés à différents usages</p>
           </div>
 
           {/* Testimonials */}
