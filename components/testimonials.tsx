@@ -28,10 +28,11 @@ export default function Testimonials() {
                   <li>Commande sur tablette</li>
                   <li>Gestion des commandes en cuisine en temps réel</li>
                   <li>Suivi de l'évolution des commandes par le client</li>  
+                  <li>Paiement en ligne (QRpay)</li>  
                 </ul>
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">7,78€/jour</cite> <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">soit 166,67€/mois</a>
+                <cite className="text-gray-200 not-italic">2,95€/jour</cite> <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">soit 89,99€/mois</a>
               </div>
             </div>
 
@@ -49,7 +50,7 @@ export default function Testimonials() {
                 </ul>
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">8,33€/jour</cite> <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">soit 191,67€/mois</a>
+                <cite className="text-gray-200 not-italic">3,60€/jour</cite> <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">soit 109,99€/mois</a>
               </div>
             </div>
 
@@ -66,7 +67,7 @@ export default function Testimonials() {
                 </ul>
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">9,14€/jour</cite> <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">soit 208,33€/mois</a>
+                <cite className="text-gray-200 not-italic">4,26€/jour</cite> <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">soit 129,99€/mois</a>
               </div>
             </div>
           </div>
