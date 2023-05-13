@@ -22,7 +22,7 @@ export default function Testimonials() {
             {/* 1st testimonial */}
             <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
               <blockquote className="text-lg text-gray-400 grow">
-                <h2 className="h2 mb-4">Basic Pack</h2>
+                <h3 className="h2 mb-4">Basic Pack</h3>
                 <ul className='list-disc ml-7'>
                   <li>Menu personnalisable</li>
                   <li>Commande sur tablette</li>
@@ -39,7 +39,7 @@ export default function Testimonials() {
             {/* 2nd testimonial */}
             <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
               <blockquote className="text-lg text-gray-400 grow">
-                <h2 className="h2 mb-4">Premium Pack</h2>
+                <h3 className="h2 mb-4">Premium Pack</h3>
                 <ul className='list-disc ml-7'>
                   <li>Récupération des données clients</li>
                   <li>Commande en ligne depuis Internet</li>
@@ -57,7 +57,7 @@ export default function Testimonials() {
             {/* 3rd testimonial */}
             <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
               <blockquote className="text-lg text-gray-400 grow">
-                <h2 className="h2 mb-4t text-yellow-200">Pack Gold</h2>
+                <h3 className="h2 mb-4t text-yellow-200">Pack Gold</h3>
                 <ul className='list-disc ml-7'>
                   <li>Statistiques avancées et Recommandations personnalisées</li>
                   <li>Sauvegardes de plusieurs menu</li>
