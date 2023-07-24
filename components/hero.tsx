@@ -31,11 +31,11 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Attirez plus de clients dans votre bar</h1>
+            <h1 className="h1 mb-4" data-aos="fade-up">Devez un Snack Bar connecté et innovant</h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Notre système connecté centré sur le client permet aux Snack Bars réunionnais de réaliser des économies de temps et une fidélisation du client.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Rejoindre la liste privée</a>
+                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://forms.gle/bnPEgwMvPGSvwyNW9">Rejoindre la liste privée</a>
               </div>
             </div>
           </div>

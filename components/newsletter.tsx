@@ -30,7 +30,7 @@ export default function Newsletter() {
             {/* CTA form */}
             <form className="w-full lg:w-1/2">
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-                <a className="btn text-purple-600 bg-purple-100 hover:bg-white shadow" href="https://1m4krbeli5z.typeform.com/to/BCPftpFX">Rejoindre la liste privée</a>
+                <a className="btn text-purple-600 bg-purple-100 hover:bg-white shadow" href="https://forms.gle/bnPEgwMvPGSvwyNW9">Rejoindre la liste privée</a>
               </div>
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}

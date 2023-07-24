@@ -25,7 +25,7 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link href="https://1m4krbeli5z.typeform.com/to/BCPftpFX" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <Link href="https://forms.gle/bnPEgwMvPGSvwyNW9" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
                 Rejoindre la liste privée
                 </Link>
               </li>
