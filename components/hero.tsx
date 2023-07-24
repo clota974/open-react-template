@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Modal from '@/components/utils/modal'
-import HeroImage from '@/public/images/hero-image-01.jpg'
+import Thumbnail from '@/public/images/thumbnail.png'
 
 export default function Hero() {
 
@@ -44,21 +44,26 @@ export default function Hero() {
           <div>
             <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
               <Image
-                src={HeroImage}
-                width={1024}
+                src={Thumbnail}
+                width={800}
+                height={800}
                 alt="Hero"
                 priority
+                style={{
+                  boxShadow: '0 0 10px #FFF',
+                  borderRadius: 3
+                }}
               />
               <a className="absolute group" href="#0" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">
                 <svg className="w-16 h-16 sm:w-20 sm:h-20 hover:opacity-75 transition duration-150 ease-in-out" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <linearGradient x1="78.169%" y1="9.507%" x2="24.434%" y2="90.469%" id="a">
-                      <stop stopColor="#EBF1F5" stopOpacity=".8" offset="0%" />
-                      <stop stopColor="#EBF1F5" offset="100%" />
+                      <stop stopColor="#FFF" stopOpacity=".8" offset="0%" />
+                      <stop stopColor="#FFF" offset="100%" />
                     </linearGradient>
                   </defs>
-                  <circle fill="url(#a)" cx="44" cy="44" r="44" />
-                  <path className="fill-current text-purple-600" d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z" />
+                  <circle fill="url(#a)" cx="44" cy="44" r="35" stroke='#0D0072' strokeWidth={3} />
+                  <path className="fill-current" color="#0D0072" d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z" />
                 </svg>
               </a>
             </div>
@@ -66,7 +71,8 @@ export default function Hero() {
             {/* Modal */}
             <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
               <div className="relative pb-9/16">
-                <video className="absolute w-full h-full" width="1920" height="1080" loop controls>
+                <video className="absolute w-full h-full" width="1080" height="1080" loop controls>
+                  <source src="/videos/video.webm" type="video/webm" />
                   <source src="/videos/video.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video> 
