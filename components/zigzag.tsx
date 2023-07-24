@@ -13,7 +13,7 @@ export default function Zigzag() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-yellow-600 bg-yellow-200 rounded-full mb-4">S'adapte en fonction de chaque bar</div>
-            <h1 className="h2 mb-4">Personnalisez  en toute simplicité</h1>
+            <h2 className="h2 mb-4">Personnalisez  en toute simplicité</h2>
             <p className="text-xl text-gray-400">Dévoilez votre identité grâce à la personnalisation du menu et gardez l'aspect professionnel que vous aimez</p>
           </div>
 
